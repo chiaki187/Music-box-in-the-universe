@@ -10,7 +10,7 @@ module.exports = {
     mode: 'development',
     entry: './src/app.ts',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'docs'),
         filename: '[name].js',
         publicPath: '/CGPRendering/',
     },
