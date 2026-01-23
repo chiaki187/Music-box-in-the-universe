@@ -223,85 +223,85 @@ class ThreeJSContainer {
             this.launchStar(13);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("F6","100n");
+                synth.triggerAttackRelease("G6","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='Backslash'){
+        }else if(event.key.toLowerCase()==='\\'){
             this.launchStar(12);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("G6","100n");
+                synth.triggerAttackRelease("A6","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='q'){
             this.launchStar(11);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("A7","100n");
+                synth.triggerAttackRelease("B6","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='w'){
             this.launchStar(10);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("B7","100n");
+                synth.triggerAttackRelease("C7","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='e'){
             this.launchStar(9);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("C7","100n");
+                synth.triggerAttackRelease("D7","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='r'){
             this.launchStar(8);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("E7","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='t'){
             this.launchStar(7);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("F7","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='y'){
             this.launchStar(6);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("G7","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='u'){
             this.launchStar(5);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("A7","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='i'){
             this.launchStar(4);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("B7","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='o'){
             this.launchStar(3);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("C8","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='p'){
             this.launchStar(2);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("D8","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='@'){
             this.launchStar(1);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("E9","100n");
             }, this.waitTime);
         }else if(event.key.toLowerCase()==='['){
             this.launchStar(0);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
-                synth.triggerAttackRelease("D7","100n");
+                synth.triggerAttackRelease("F9","100n");
             }, this.waitTime);
         }
     }
