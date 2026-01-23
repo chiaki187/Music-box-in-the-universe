@@ -881,7 +881,7 @@ function init() {
     let container = new ThreeJSContainer();
 
     let viewport = container.createRendererDOM(window.innerWidth,
-  window.innerHeight, new THREE.Vector3(100, 100 ,0));//カメラの座標
+  window.innerHeight, new THREE.Vector3(20, 20 ,0));//カメラの座標
     document.body.appendChild(viewport);
 }
 
