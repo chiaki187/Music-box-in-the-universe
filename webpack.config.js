@@ -12,6 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'docs'),
         filename: '[name].js',
+        chunkFilename: '[name].js',
         publicPath: '/Music-box-in-the-universe/',
     },
     resolve: {
