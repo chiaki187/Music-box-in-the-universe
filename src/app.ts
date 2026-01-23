@@ -151,33 +151,33 @@ class ThreeJSContainer {
     }
     //keyが押されたときのイベントハンドラ
     private handleKeyDown=(event:KeyboardEvent)=>{
-        if(event.key.toLowerCase()==='q'){
+        if(event.key.toLowerCase()==='z'){
             this.playSong();
-        }else if(event.key.toLowerCase()==='a'){
+        }else if(event.key.toLowerCase()==='1'){
             this.launchStar(25);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("C5","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='s'){
+        }else if(event.key.toLowerCase()==='2'){
             this.launchStar(24);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("D5","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='d'){
+        }else if(event.key.toLowerCase()==='3'){
             this.launchStar(23);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("E5","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='f'){
+        }else if(event.key.toLowerCase()==='4'){
             this.launchStar(22);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("F5","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='g'){
+        }else if(event.key.toLowerCase()==='5'){
             this.launchStar(21);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
