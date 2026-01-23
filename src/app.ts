@@ -832,7 +832,8 @@ window.addEventListener("DOMContentLoaded", init);
 function init() {
     let container = new ThreeJSContainer();
 
-    let viewport = container.createRendererDOM(840, 480, new THREE.Vector3(10, 10 ,0));//カメラの座標
+    let viewport = container.createRendererDOM(window.innerWidth,
+  window.innerHeight, new THREE.Vector3(10, 10 ,0));//カメラの座標
     document.body.appendChild(viewport);
 }
 
