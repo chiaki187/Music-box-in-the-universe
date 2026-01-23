@@ -707,8 +707,7 @@ class ThreeJSContainer {
 window.addEventListener("DOMContentLoaded", init);
 function init() {
     let container = new ThreeJSContainer();
-    let viewport = container.createRendererDOM(window.innerWidth,
-  window.innerHeight, new three__WEBPACK_IMPORTED_MODULE_2__.Vector3(10, 10, 0)); //カメラの座標
+    let viewport = container.createRendererDOM(480, 840, new three__WEBPACK_IMPORTED_MODULE_2__.Vector3(10, 10, 0)); //カメラの座標
     document.body.appendChild(viewport);
 }
 class CustomSinCurve extends three__WEBPACK_IMPORTED_MODULE_2__.Curve {
