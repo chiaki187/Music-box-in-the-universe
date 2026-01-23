@@ -12,7 +12,7 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, 'docs'),
         filename: '[name].js',
-        publicPath: '/CGPRendering/',
+        publicPath: '/Music-box-in-the-universe/',
     },
     resolve: {
         alias: {
