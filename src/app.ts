@@ -183,74 +183,122 @@ class ThreeJSContainer {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("G5","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='h'){
+        }else if(event.key.toLowerCase()==='6'){
             this.launchStar(19);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("A5","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='j'){
+        }else if(event.key.toLowerCase()==='7'){
             this.launchStar(18);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("B5","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='k'){
+        }else if(event.key.toLowerCase()==='8'){
             this.launchStar(17);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("C6","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='l'){
+        }else if(event.key.toLowerCase()==='9'){
             this.launchStar(16);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("D6","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()===';'){
+        }else if(event.key.toLowerCase()==='0'){
             this.launchStar(15);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("E6","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='z'){
+        }else if(event.key.toLowerCase()==='-'){
             this.launchStar(14);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("F6","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='x'){
+        }else if(event.key.toLowerCase()==='^'){
             this.launchStar(13);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("F6","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='c'){
+        }else if(event.key.toLowerCase()==='Backslash'){
             this.launchStar(12);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("G6","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='v'){
+        }else if(event.key.toLowerCase()==='q'){
             this.launchStar(11);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("A7","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='b'){
+        }else if(event.key.toLowerCase()==='w'){
             this.launchStar(10);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("B7","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='n'){
+        }else if(event.key.toLowerCase()==='e'){
             this.launchStar(9);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("C7","100n");
             }, this.waitTime);
-        }else if(event.key.toLowerCase()==='m'){
+        }else if(event.key.toLowerCase()==='r'){
             this.launchStar(8);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='t'){
+            this.launchStar(7);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='y'){
+            this.launchStar(6);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='u'){
+            this.launchStar(5);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='i'){
+            this.launchStar(4);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='o'){
+            this.launchStar(3);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='p'){
+            this.launchStar(2);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='@'){
+            this.launchStar(1);
+            setTimeout(() => {
+                // この中の処理が、指定したミリ秒後に実行されます
+                synth.triggerAttackRelease("D7","100n");
+            }, this.waitTime);
+        }else if(event.key.toLowerCase()==='['){
+            this.launchStar(0);
             setTimeout(() => {
                 // この中の処理が、指定したミリ秒後に実行されます
                 synth.triggerAttackRelease("D7","100n");
